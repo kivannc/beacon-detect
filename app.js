@@ -45,4 +45,4 @@ function sendData() {
 
 }
 
-var interval = setInterval(sendData,30000);
+var interval = setInterval(sendData,5000);
