@@ -6,6 +6,7 @@ var scanner = new BeaconScanner(Noble);
 var beacons = [];
 
 scanner.onadvertisement = (advertisement) => {
+    console.log(advertisement);
     var beacon = advertisement["iBeacon"];
     beacon.rssi = advertisement["rssi"];
     beacon.deviceId = "Raspberry";
